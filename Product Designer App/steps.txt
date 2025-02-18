@@ -1,0 +1,8 @@
+Smooth Scrolling
+  attach loco scroll css
+  attach loco motive scroll min js
+  some code from loco github for js
+
+gsap  - Green stock animation platform
+  - attach gsap
+scroll trigger
