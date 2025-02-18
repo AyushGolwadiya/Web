@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: General Sans; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url('cloudss.jpg');
+    background-size: cover;
+    background-position: center;
+}  
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+}
+
+#nav i{
+    font-size:25px;
+    font-weight: 700;
+}
+
+#full{
+    height: 100%;
+    width: 25%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.051);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 80px 50px;
+}
+
+#full h4{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#full i{
+    position: absolute;
+    top:5.2%;
+    right:12%;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 50%;
+}
+
+i{
+    cursor:pointer;
+}
