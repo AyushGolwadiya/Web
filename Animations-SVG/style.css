@@ -1,0 +1,19 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: General;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff
+}
+
+#string{
+    height: 200px;
+    width: 100%;
+}
+
