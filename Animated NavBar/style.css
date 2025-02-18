@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: General Sans ;
+    color:white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #000;
+}
+#hero{
+    height: 100vh;
+}
+#nav{
+    padding: 20px 50px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#part2{
+    display: flex;
+    gap:100px
+}
+
+#hero h1{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    white-space: nowrap;
+}
+
