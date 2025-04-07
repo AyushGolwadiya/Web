@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "anzo1";
+  src: url("./assets/fonts/file.woff2");
+}
+
+@font-face {
+  font-family: "anzo2";
+  src: url("./assets/fonts/file2.woff2");
+}
+
+@font-face {
+  font-family: "anzo3";
+  src: url("./assets/fonts/file3.woff2");
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#page1-in{
+  perspective: 2000px;
+}
+
+#page2{
+  perspective: 2000px;
+}
+
+.rotatetext{
+  transform-origin: 100 50;
+}
+
+#tiltDiv{
+  width:fit-content;
+}
