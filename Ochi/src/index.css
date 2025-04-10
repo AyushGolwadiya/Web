@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'ochi1';
+    src: url('./assets/fonts/FoundersGrotesk-Semibold.woff');
+}
+
+@font-face {
+    font-family: 'ochi2';
+    src: url('./assets/fonts/FoundersGrotesk-Semibold.woff2');
+}
+
+@font-face {
+    font-family: 'ochi3';
+    src: url('./assets/fonts/icomoon.woff');
+}
+@font-face {
+    font-family: 'ochi4';
+    src: url('./assets/fonts/NeueMontreal-Regular.woff');
+}
+@font-face {
+    font-family: 'ochi5';
+    src: url('./assets/fonts/NeueMontreal-Regular.woff2');
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
