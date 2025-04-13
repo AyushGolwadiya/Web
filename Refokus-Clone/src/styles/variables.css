@@ -1,0 +1,20 @@
+:root {
+  /* Project Colors */
+  --color-project-1: #1a1a1a;
+  --color-project-2: #2a2a2a;
+  --color-project-3: #3a3a3a;
+  --color-project-4: #4a4a4a;
+  
+  /* You can add more custom colors here */
+  --primary-color: #00ff19;
+  --secondary-color: #333333;
+  --accent-color: #ff3366;
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  
+  /* Background Colors */
+  --bg-primary: #000000;
+  --bg-secondary: #111111;
+} 
