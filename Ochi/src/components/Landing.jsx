@@ -1,9 +1,8 @@
 import { motion } from "motion/react";
-import React from "react";
 import "remixicon/fonts/remixicon.css";
 
 const Landing = () => {
-  
+
   return (
     <div className="w-full h-screen">
       <div className="textstructure pt-45 px-15">

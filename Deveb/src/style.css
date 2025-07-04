@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'deveb1';
+  src: url('/0484562807a97172-s.p.woff2');
+}
+@font-face {
+  font-family: 'deveb2';
+  src: url('/8888a3826f4a3af4-s.p.woff2');
+}
+@font-face {
+  font-family: 'deveb3';
+  src: url('/eafabf029ad39a43-s.p.woff2');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'deveb1';
+  font-weight: 100;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+.logo svg{
+  width: 2vw;
+  height: 1.8vw;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1vw 3.5vw;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap:2vw;
+}
+
+nav a{
+  text-decoration: none;
+  color:#7f7f7f;
+  font-size: 0.8vw;
+  font-weight: 100;
+}
+
+.btn{
+  /* position: relative; */
+  width: 4.5vw;
+  height: 1.6vw;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+} 
+
+.btn-inner h6{
+  white-space: nowrap;
+}
+
+.lines{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+
+.line{
+  width: 1.8vw;
+  height: .3vh;
+  background-color: black;
+  border-radius: 50%;
+}
+
+

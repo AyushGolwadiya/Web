@@ -1,4 +1,6 @@
 Shery.mouseFollower();
+
+Shery.makeMagnet('.navlink')
 // locomotive scroll - smooth scrolling
 const scroll =  new LocomotiveScroll({
     el:document.querySelector('#main'),

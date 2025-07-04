@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'medium';
+  src: url('../public/PPNeueMontreal-Medium.431960c2.woff2');
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('../public/PPNeueMontreal-Regular.48a63c42.woff2');
+}
+
+body{
+  /* fd2c2a */
+  background-color: #000;
+  font-family: 'medium', sans-serif;
+}

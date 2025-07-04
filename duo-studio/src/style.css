@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'duo1';
+  src: url('../public/ppmori-regular.woff2');
+}
+
+@font-face{
+  font-family: 'duo2';
+  src: url('../public/ppmori.ttf');
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: duo2;
+  background-color: #0f0d0d;
+  color: #f0f2f2;
+}
+
+.page1{
+  width: 100%;
+  height: 100vh;
+}
+
+.nav{
+  display: flex;
+  padding: 1.2vw 2vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav img{
+  width: 2.5vw;
+}
+
+.part-2{
+  display: flex;
+  gap:0.7vw;
+}
+
+.part-2 a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .85vw;
+  padding: 0 0.3vw;
+  color: #f0f2f2;
+  letter-spacing: 0.09vw;
+  padding: 0.4vw;
+}
+
+.part-2 a:nth-child(1){
+  border-bottom: 0.1vw solid white;
+}
+
+.gola{
+  width: 1.2vw;
+  height: 1.2vw;
+  background-color: #f0f2f2;
+  border-radius: 50%;
+}
+
+.text-container h1{
+  font-size:7vw;
+  font-weight: 400;
+  line-height: 7vw;
+  display: flex;
+}
